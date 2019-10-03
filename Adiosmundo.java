@@ -1,14 +1,17 @@
+
 package prueba;
 
 public class Adiosmundo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hola mundo");
-	
-System.out.println("Hola A TODOS");
+String amarillo = "\033[33m";
+String verde = "\033[32m";
 
-}
+
+
+                System.out.println(amarillo + "Adios mundo");
+        System.out.println(verde + "Pero... volvere");
+        }
 
 }
 
